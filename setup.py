@@ -1,18 +1,18 @@
 from distutils.core import setup
 
 setup(
-   name = 'forceatlas',
-   packages = ['forceatlas'],
+   name = 'yifanhu',
+   packages = ['yifanhu'],
    version = '0.1.0',
    license = 'GPLv3+',
-   description = 'Python-friendly ForceAtlas2 library with networkx compatibility and support for thread-based parallelism',
+   description = 'Python-friendly yifanhu library with networkx compatibility.',
    author = 'Ryan Rudes',
    author_email = 'ryanrudes@gmail.com',
    url = 'https://github.com/ryanrudes/forceatlas',
-   download_url = 'https://github.com/ryanrudes/forceatlas/archive/refs/tags/v0.1.0.tar.gz',
-   keywords = ['multithreading', 'networkx', 'forceatlas2', 'graph-layout', 'force-directed-graphs'],
+   download_url = 'https://github.com/phlawlessDevelopment/yifanhu/archive/refs/tags/v0.1.0.tar.gz',
+   keywords = ['networkx', 'yifanhu', 'graph-layout', 'force-directed-graphs'],
    install_requires = ['networkx', 'pandas'],
    package_data = {
-      "forceatlas": ["ext/forceatlas2.jar", "ext/gephi-toolkit-0.9.2-all.jar"]
+      "yifanhu": ["ext/yifanhu.jar", "ext/gephi-toolkit-0.9.2-all.jar"]
    }
 )
